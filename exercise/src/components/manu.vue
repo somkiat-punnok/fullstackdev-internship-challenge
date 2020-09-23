@@ -160,7 +160,7 @@ export default {
     fetch() {
       this.product = [];
       this.axios
-        .get("v2/5c77c5b330000051009d64c9")
+        .get("https://www.mocky.io/v2/5c77c5b330000051009d64c9")
         .then((response) => {
           this.product = response.data.data;
           console.log(response.data);
